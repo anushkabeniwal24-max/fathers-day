@@ -1,0 +1,54 @@
+const text =
+"Thank you for being our hero, our guide, and our biggest strength.";
+
+let i = 0;
+
+function typing(){
+
+if(i < text.length){
+
+document.getElementById("typewriter").innerHTML += text.charAt(i);
+
+i++;
+
+setTimeout(typing,50);
+
+}
+
+}
+
+typing();
+
+function celebrate(){
+
+confetti({
+particleCount:250,
+spread:180,
+origin:{y:0.6}
+});
+
+}
+
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.classList.add("heart");
+
+heart.innerHTML="❤️";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.fontSize=(Math.random()*20+15)+"px";
+
+heart.style.animationDuration=(Math.random()*4+4)+"s";
+
+document.querySelector(".hearts").appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},8000);
+
+}
+
+setInterval(createHeart,500);

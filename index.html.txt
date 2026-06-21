@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Father's Day Papa Ji ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<section class="hero">
+
+<div class="overlay">
+
+<h1>Happy Father's Day ❤️</h1>
+
+<h2>Papa Ji</h2>
+
+<p id="typewriter"></p>
+
+<a href="#gallery" class="btn">View Memories</a>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2 class="section-title">Beautiful Memories 📸</h2>
+
+<div class="gallery">
+
+<img src="images/family.jpg">
+<img src="images/papa1.jpg">
+<img src="images/papa2.jpg">
+<img src="images/papa3.jpg">
+<img src="images/papa4.jpg">
+<img src="images/papa5.jpg">
+
+</div>
+
+</section>
+
+<section class="message">
+
+<h2>Dear Papa Ji ❤️</h2>
+
+<p>
+Thank you for every sacrifice,
+every lesson,
+every smile,
+and every moment you stood beside us.
+
+You taught us strength without saying a word,
+love without expecting anything in return,
+and courage through your actions.
+
+As we grow older,
+we understand more and more
+how much you have done for us.
+
+You are our hero,
+our guide,
+our inspiration,
+and our biggest blessing.
+
+No matter where life takes us,
+you will always be our first superhero.
+
+Happy Father's Day.
+
+With endless love,
+
+Anushka & Your Son ❤️
+</p>
+
+</section>
+
+<section class="qualities">
+
+<h2 class="section-title">Why We Love You ❤️</h2>
+
+<div class="cards">
+
+<div class="card">🦸 Our Hero</div>
+<div class="card">💪 Our Strength</div>
+<div class="card">🏡 Our Safe Place</div>
+<div class="card">❤️ Our Inspiration</div>
+<div class="card">😊 Our Biggest Supporter</div>
+<div class="card">🌟 Best Father Ever</div>
+
+</div>
+
+</section>
+
+<section class="final">
+
+<h1>Thank You Papa Ji ❤️</h1>
+
+<p>
+For every sacrifice,
+every prayer,
+every dream you had for us.
+</p>
+
+<button onclick="celebrate()">I Love You Papa ❤️</button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
